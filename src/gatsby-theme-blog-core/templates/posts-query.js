@@ -1,5 +1,5 @@
 import { graphql } from "gatsby"
-import PostsPage from "../components/posts"
+import PostsPage from "../../gatsby-theme-blog/gatsby-theme-blog-core/components/posts"
 
 export default PostsPage
 
@@ -21,7 +21,6 @@ export const query = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         tags {
-          id
           slug
           title
         }
