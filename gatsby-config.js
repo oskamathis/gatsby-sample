@@ -6,9 +6,9 @@ if (process.env.ENVIRONMENT !== "production") {
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Tech Blog(仮)`,
+    description: `QiitaやNoteで記事にするまでもないアウトプット置き場`,
+    author: `@OskaMathis`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
